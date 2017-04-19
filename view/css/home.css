@@ -1,0 +1,41 @@
+#information{
+	display: block;
+	margin-top: 50px;
+	margin-left: 40px;
+}
+
+#formations, #units, #actions{ 
+	list-style-type: none; 
+	margin-right: 30px; 
+	padding: 0; 
+	display: inline-block;
+	vertical-align: top;
+}
+
+#formations li, #units li, #actions li {
+    margin-top: -1px;
+    border: 2px solid black;
+    padding: 10px;
+	min-width: 150px;
+}
+
+#formations .ui-selected , #units .ui-selected, #actions .ui-selected{ 
+	background: #F39814; 
+	color: white; 
+}
+
+.custType{
+	background-color: lightGrey;
+	font-weight: bold;
+}
+
+#next{
+	margin-top: 20px;
+}
+
+
+#selectable3 .ui-selecting { background: #FECA40; }
+#selectable3 .ui-selected { background: #F39814; color: white; }
+#selectable3 { list-style-type: none; margin: 0; padding: 0; width: 60%; }
+#selectable3 li { margin: 3px; padding: 0.4em; font-size: 1.4em; height: 18px; }
+ 
